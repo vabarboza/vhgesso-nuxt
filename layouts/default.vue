@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar />
+    <BannerSite />
 
     <div class="container column is-10">
       <Nuxt />
@@ -10,12 +11,14 @@
 </template>
 
 <script>
+import BannerSite from '~/components/BannerSite.vue'
 import NavBar from '~/components/NavBar.vue'
 
 export default {
   name: 'DefaultLayout',
   components: {
-    NavBar
+    NavBar,
+    BannerSite
   }
 }
 </script>
