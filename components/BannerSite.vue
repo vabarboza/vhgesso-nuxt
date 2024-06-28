@@ -3,7 +3,7 @@
         <section class="hero is-small hero-background">
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <img class="title has-text-white responsive-image" src="~/assets/images/logo.png" />
+                    <img class="title has-text-white responsive-image animate__animated animate__pulse" src="~/assets/images/logo.png" />
                     <p class="subtitle has-text-dark is-5 has-text-weight-semibold mt-3">Forros - Molduras - Gesso
                         Acartonado</p>
                     <p class="subtitle has-text-dark is-5 has-text-weight-semibold margin-top">Divisorias - Sancas -

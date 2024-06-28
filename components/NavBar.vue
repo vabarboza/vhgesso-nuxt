@@ -2,7 +2,7 @@
     <nav class="navbar container is-max-desktop" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="~/assets/images/logo.png" />
+                <img class="animate__animated animate__pulse" src="~/assets/images/logo.png" />
             </a>
 
             <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu" aria-expanded="false">
