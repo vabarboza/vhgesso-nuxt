@@ -3,9 +3,9 @@
     <NavBar />
     <BannerSite />
 
-    <div class="container column is-10">
-      <Nuxt />
-    </div>
+
+    <Nuxt />
+
 
     <FooterSite />
   </div>
