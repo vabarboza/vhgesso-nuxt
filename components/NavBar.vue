@@ -1,11 +1,12 @@
 <template>
-    <nav class="navbar container is-max-desktop" role="navigation" aria-label="main navigation">
+    <nav class="navbar container" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
                 <img class="animate__animated animate__pulse" src="~/assets/images/logo.png" />
             </a>
 
-            <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu" aria-expanded="false">
+            <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu"
+                aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -75,17 +76,21 @@
             </div>
 
             <div class="navbar-end">
-                <div class="navbar-item">
+                <a href="" class="navbar-item">
                     <span class="icon">
                         <i class="fab fa-instagram fa-lg"></i>
                     </span>
+                </a>
+                <a href="" class="navbar-item">
                     <span class="icon">
                         <i class="fab fa-whatsapp fa-lg"></i>
                     </span>
+                </a>
+                <a href="" class="navbar-item">
                     <span class="icon">
                         <i class="fab fa-facebook-square fa-lg"></i>
                     </span>
-                </div>
+                </a>
             </div>
         </div>
     </nav>
