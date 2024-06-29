@@ -25,6 +25,10 @@ export default {
         rel: 'stylesheet',
         type: "text/css",
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'
       }
     ],
   },
@@ -32,7 +36,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'animate.css/animate.min.css',
-    'mdb-vue-ui-kit/css/mdb.min.css'
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
